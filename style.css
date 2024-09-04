@@ -1,0 +1,344 @@
+body{
+    background-color: hsl(204, 43%, 93%);
+}
+.container{
+    display: grid;
+    grid-template-columns: 400px 400px 0px;
+    justify-content: center;
+    gap: 0px;
+    margin: 80px;
+}
+.item{
+    width: px;
+    height: 300px;
+}
+.one{
+    background-color: white;
+    grid-column: 1/5;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.two{
+    background-color: hsl(179, 62%, 43%);
+    border-bottom-left-radius: 15px;
+}
+.three{
+    background-color: aquamarine;
+    border-bottom-right-radius: 15px;
+}
+.attribution{
+    margin-top: -10px;
+}
+.h2{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 55px;
+    color: hsl(179, 62%, 43%);
+}
+.p{
+    font-size: 28px;
+    margin-left: 55px;
+    color: hsl(71, 73%, 54%);
+}
+.p1{
+    margin-left: 55px;
+    color: hsl(218, 22%, 67%);
+    width: 650px;
+    font-size: 25px;
+}
+.h3{
+    margin-top: 50px;
+    font-size: 22px;
+    color: white;
+    margin-left: 55px;
+}
+.p2{
+    font-size: 35px;
+    color: white;
+    margin-left: 55px;
+    margin-top: -1px;
+}
+.p3{
+    margin-left: 120px;
+    margin-top: -65px;
+    font-size: 19px;
+    color: hsl(204, 43%, 93%);
+}
+.p4{
+    font-size: 20px;
+    color: hsl(204, 43%, 93%);
+    padding-right: 30px;
+    margin-left: 55px;
+}
+button{
+    width: 270px;
+    height: 40px;
+    border: 0px;
+    margin-left: 55px;
+    margin-top: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+}
+.p5{
+    margin-top: 50px;
+    margin-left: 55px;
+    font-size: 20px;
+    color: white;
+}
+.p6{
+    margin-left: 55px;
+    color: hsl(218, 22%, 67%);
+}
+.pt{
+    margin-top: -10px;
+}
+.pk{
+    margin-top: -10px;
+}
+.pl{
+    margin-top: -10px;
+}
+.bp{
+    margin-top: -10px;
+}
+.bf{
+    margin-top: -10px;
+}
+.bv{
+    margin-top: -10px;
+}
+@media screen and (max-width: 394px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .item{
+        width: 330px;
+        height: 400px;
+    }
+    body{
+        background-color: blue;
+    }
+    .h2{
+        margin-left: 25px;
+    }
+    .p{
+        margin-left: 25px;
+        font-size: 25px;
+    }
+    .p1{
+        margin-left: 25px;
+        width: 270px;
+    }
+    .two{
+        border-radius: 0px;
+        height: 270px;
+    }
+    .h3{
+        margin-left: 25px;
+    }
+    .p2{
+        margin-left: 25px;
+    }
+    .p3{
+        margin-left: 90px;
+    }
+    .p4{
+        margin-left: 25px;
+    }
+    button{
+        margin-left: 25px;
+    }
+    .three{
+        border-radius: 0px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        height: 300px;
+    }
+    .p5{
+        margin-left: 25px;
+        font-size: 25px;
+    }
+    .p6{
+        margin-left: 25px;
+    }    
+}
+@media screen and (max-width: 500px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .item{
+        width: 330px;
+        height: 400px;
+    }
+    body{
+        background-color: blue;
+    }
+    .h2{
+        margin-left: 25px;
+    }
+    .p{
+        margin-left: 25px;
+        font-size: 25px;
+    }
+    .p1{
+        margin-left: 25px;
+        width: 270px;
+    }
+    .two{
+        border-radius: 0px;
+        height: 270px;
+    }
+    .h3{
+        margin-left: 25px;
+    }
+    .p2{
+        margin-left: 25px;
+    }
+    .p3{
+        margin-left: 90px;
+    }
+    .p4{
+        margin-left: 25px;
+    }
+    button{
+        margin-left: 25px;
+    }
+    .three{
+        border-radius: 0px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        height: 300px;
+    }
+    .p5{
+        margin-left: 25px;
+        font-size: 25px;
+    }
+    .p6{
+        margin-left: 25px;
+    }    
+}
+@media screen and (max-width: 600px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .item{
+        width: 330px;
+        height: 400px;
+    }
+    body{
+        background-color: blue;
+    }
+    .h2{
+        margin-left: 25px;
+    }
+    .p{
+        margin-left: 25px;
+        font-size: 25px;
+    }
+    .p1{
+        margin-left: 25px;
+        width: 270px;
+    }
+    .two{
+        border-radius: 0px;
+        height: 270px;
+    }
+    .h3{
+        margin-left: 25px;
+    }
+    .p2{
+        margin-left: 25px;
+    }
+    .p3{
+        margin-left: 90px;
+    }
+    .p4{
+        margin-left: 25px;
+    }
+    button{
+        margin-left: 25px;
+    }
+    .three{
+        border-radius: 0px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        height: 300px;
+    }
+    .p5{
+        margin-left: 25px;
+        font-size: 25px;
+    }
+    .p6{
+        margin-left: 25px;
+    }    
+}
+@media screen and (max-width: 700px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .item{
+        width: 330px;
+        height: 400px;
+    }
+    body{
+        background-color: blue;
+    }
+    .h2{
+        margin-left: 25px;
+    }
+    .p{
+        margin-left: 25px;
+        font-size: 25px;
+    }
+    .p1{
+        margin-left: 25px;
+        width: 270px;
+    }
+    .two{
+        border-radius: 0px;
+        height: 270px;
+    }
+    .h3{
+        margin-left: 25px;
+    }
+    .p2{
+        margin-left: 25px;
+    }
+    .p3{
+        margin-left: 90px;
+    }
+    .p4{
+        margin-left: 25px;
+    }
+    button{
+        margin-left: 25px;
+    }
+    .three{
+        border-radius: 0px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        height: 300px;
+    }
+    .p5{
+        margin-left: 25px;
+        font-size: 25px;
+    }
+    .p6{
+        margin-left: 25px;
+    }    
+}
+/* This Is The End Of My Code, Please Do Not Manipulate This Code */
